@@ -1,0 +1,15 @@
+MainWindow
+  !text: tr('')
+  size: 160 450
+
+  @onEnter: modules.game_tavernlight.destroy()
+  @onEscape: modules.game_tavernlight.destroy()
+
+  Label
+    id: jumpLabel
+    !text: tr('Jump')
+    width: 130
+    anchors.top: prev.top
+    anchors.left: prev.left
+    margin-top: 5
+    margin-left: 5

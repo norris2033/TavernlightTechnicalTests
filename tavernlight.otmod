@@ -1,0 +1,9 @@
+Module
+ name: game_tavernlight
+ description: Displays jump window for Tavernlight technical test 7
+ author: Adrian Norris
+ website: www.otclient.info
+ sandboxed: true
+ scripts: [ tavernlight.lua ]
+ @onLoad: init()
+ @onUnload: terminate()
